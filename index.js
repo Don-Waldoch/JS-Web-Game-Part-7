@@ -5,7 +5,7 @@ const pc = newPlayableCharacter(100, 110)
 const npc = newNonPlayableCharacter(50, 300)
 
 // have the NPC start walking east immediately
-npc.walkEast()
+moveNPC(3); // Walk 3 times around the board
 
 // Create the inventory
 const inventory = newInventory()
